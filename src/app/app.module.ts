@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
+import { DestacarDirective } from './directivas/destacar.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DestacarDirective
   ],
   imports: [
     BrowserModule,
