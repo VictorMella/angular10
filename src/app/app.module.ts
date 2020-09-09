@@ -6,20 +6,14 @@ import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
 import { DestacarDirective } from './directivas/destacar.directive';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { NavBarComponent } from './navBar/nav-bar.component';
-import { FooterComponent } from './footer/footer.component';
-import { TablaComponent } from './dashboard/tabla/tabla.component';
-import { ListaComponent } from './dashboard/lista/lista.component';
+import { ListTareasComponent } from './dashboard/list-tareas/list-tareas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DestacarDirective,
     DashboardComponent,
-    NavBarComponent,
-    FooterComponent,
-    TablaComponent,
-    ListaComponent
+    ListTareasComponent
   ],
   imports: [
     BrowserModule,

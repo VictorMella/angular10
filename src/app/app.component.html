@@ -1,58 +1,5 @@
-<app-nav-bar></app-nav-bar>
-<div class="container mt-4">
-
-  <app-dashboard></app-dashboard>
-</div>
-
-<app-footer></app-footer>
+<app-dashboard></app-dashboard>
 
 
 
 
-
-
-
-
-
-
-
-
-
-<!-- <div class="container">
-  <div class="row">
-    <h3>{{titulo}} </h3>
-    <button class=" btn btn-primary ml-auto" (click)="btnToogle()"> Toogle</button>
-  </div>
-  <br>
-  <table *ngIf="lsEstudiantes.length != 0" class="table">
-    <thead>
-      <th>N°</th>
-      <th>Nombre</th>
-      <th>Estado</th>
-    </thead>
-    <tbody>
-      <tr *ngFor="let item of lsEstudiantes; let i = index" [ngSwitch]="item.estado">
- 
-        <td> {{i+1}} </td>
-        <td appDestacar> {{item.nombre}} </td>
-        <td> 
-          <span *ngSwitchCase="'Aprobado'" class="badge badge-primary">
-            {{item.estado}}
-          </span>
-          <span *ngSwitchCase="'No aprobado'" class="badge badge-danger">
-            {{item.estado}}
-          </span>
-          <span *ngSwitchCase="'Promocionado'" class="badge badge-success">
-            {{item.estado}}
-          </span>
-          <span *ngSwitchDefault class="badge badge-dark">
-            {{item.estado}}
-          </span>
-         </td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="danger" *ngIf="lsEstudiantes.length == 0">
- <h5>   No hay Estudiantes en la clase</h5>
-  </div>
-</div> -->
