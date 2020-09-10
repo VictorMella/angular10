@@ -4,17 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { CrearAlumnoComponent } from './components/crear-alumno/crear-alumno.component';
+import { ListAlumnosComponent } from './components/list-alumnos/list-alumnos.component';
 
-import { LsEmpleadosComponent } from './empleadoComponent/ls-empleados.component';
-import { CountEmpleadosComponent } from './empleadoComponent/countEmpleados/count-empleados.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavBarComponent,
+    CrearAlumnoComponent,
+    ListAlumnosComponent,
 
-    LsEmpleadosComponent,
-    CountEmpleadosComponent,
+
+
 
   ],
   imports: [

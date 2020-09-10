@@ -1,0 +1,13 @@
+<div class="form-group">
+    <label for="">Alumno</label>
+    <input type="text" class="form-control" [(ngModel)]="nombre">
+</div>
+<div class="form-group">
+    <label for="">Estado</label>
+    <select class="form-control" [(ngModel)]="estado">
+        <option value="No aprobado">No aprobado</option>
+        <option value="Aprobado">Aprobado</option>
+        <option value="Promocionado">Promocionado </option>
+    </select>
+</div>
+<button class="btn btn-primary float-right" (click)="agregarAlumno()"[disabled]="!nombre" >Agregar</button>
