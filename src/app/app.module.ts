@@ -4,16 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
-import { DestacarDirective } from './directivas/destacar.directive';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ListTareasComponent } from './dashboard/list-tareas/list-tareas.component';
+
+import { LsEmpleadosComponent } from './empleadoComponent/ls-empleados.component';
+import { CountEmpleadosComponent } from './empleadoComponent/countEmpleados/count-empleados.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    DestacarDirective,
-    DashboardComponent,
-    ListTareasComponent
+
+    LsEmpleadosComponent,
+    CountEmpleadosComponent,
+
   ],
   imports: [
     BrowserModule,
