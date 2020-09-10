@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AlumnoService } from './alumno.service';
+import { ShortUrlService } from './short-url.service';
 
-describe('AlumnoService', () => {
-  let service: AlumnoService;
+describe('ShortUrlService', () => {
+  let service: ShortUrlService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AlumnoService);
+    service = TestBed.inject(ShortUrlService);
   });
 
   it('should be created', () => {

@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { CrearAlumnoComponent } from './components/crear-alumno/crear-alumno.component';
-import { ListAlumnosComponent } from './components/list-alumnos/list-alumnos.component';
+import { DasboardComponent } from './dasboard/dasboard.component';
+import { NavbarComponent } from './navbar/navbar.component';
+
 
 
 
@@ -15,18 +15,14 @@ import { ListAlumnosComponent } from './components/list-alumnos/list-alumnos.com
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    CrearAlumnoComponent,
-    ListAlumnosComponent,
-
-
-
-
+    DasboardComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
