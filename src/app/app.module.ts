@@ -4,8 +4,10 @@ import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
-import { DasboardComponent } from './dasboard/dasboard.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 
@@ -15,8 +17,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DasboardComponent,
-    NavbarComponent
+    NavBarComponent,
+    DashboardComponent,
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,

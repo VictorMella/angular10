@@ -1,0 +1,11 @@
+img{
+    width: 200px;
+}
+
+.imgClima{
+    text-align:center ;
+}
+
+input, input[placeholder]{
+    text-align: center;
+}
