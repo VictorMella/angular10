@@ -3,6 +3,14 @@
     border-color: #f05f44;
     padding: 1rem 2rem;
     border-radius: 300px;
+    width: 90%;
+    margin: 5px auto 10px
+}
+
+.cardInfo{
+    width:auto; 
+    max-width: 25rem;
+    margin: 0 auto
 }
 
 .btn-xl:hover{
